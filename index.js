@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", onLoad);
+const moviePoster = document.getElementById("poster");
 const options = {
 	method: 'GET',
 	headers: {
@@ -10,3 +12,4 @@ fetch('https://sephora.p.rapidapi.com/auto-complete?q=eyeshadows', options)
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
+

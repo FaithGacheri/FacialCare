@@ -1,11 +1,19 @@
 .look{
   
-    background-image: url(./Images/istockphoto-478639548-612x612.jpg);
-    background-size: cover;
-    height: 600px;
+   background-image: url(./Images/istockphoto-478639548-612x612.jpg);
+   background-size: cover;
+   height: 600px;
+   background-position: 100%;
+   width: 100%; 
   
  }
 
  .look h2{
  text-align: center;
+color: #fafafa;
  }
+
+ 
+ /* height: 600px; */
+
+ 

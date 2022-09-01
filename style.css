@@ -1,7 +1,11 @@
 .look{
-    background-color: red;
+  
     background-image: url(./Images/istockphoto-478639548-612x612.jpg);
     background-size: cover;
-    height: 100%;
- 
-}
+    height: 600px;
+  
+ }
+
+ .look h2{
+ text-align: center;
+ }

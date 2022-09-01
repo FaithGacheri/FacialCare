@@ -1,0 +1,13 @@
+.button{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    }
+    
+    #choose{
+        padding: 7px 7px 7px 7px;
+        border-radius: 5px;
+        background-color: #ED661F;
+        border: none;
+        color: white;
+    }
